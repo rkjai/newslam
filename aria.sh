@@ -11,5 +11,5 @@ aria2c --enable-rpc --rpc-listen-all=false --check-certificate=false \
    --peer-id-prefix=-qB4360- --user-agent=qBittorrent/4.3.6 --peer-agent=qBittorrent/4.3.6 \
    --disk-cache=64M --file-allocation=prealloc --continue=true \
    --max-file-not-found=0 --max-tries=20 --auto-file-renaming=true \
-   --bt-enable-lpd=true --seed-time=0.01 --seed-ratio=1.0 \
+   --bt-enable-lpd=true --seed-time=600 --seed-ratio=2.0 \
    --content-disposition-default-utf8=true --http-accept-gzip=true --reuse-uri=true --netrc-path=/usr/src/app/.netrc
